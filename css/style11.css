@@ -1,0 +1,25 @@
+body {
+    background-image: url("../res/signe1.jpg");
+  }
+  button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row{
+    transform-style: preserve-3d;
+
+    transition-duration: 1s;
+}
+.rectangle {
+    background-color: gray;
+    border-color: white;
+    border-style: solid;
+    height: 300px;
+    padding: 10px;   
+}
